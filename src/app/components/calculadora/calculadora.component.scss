@@ -1,0 +1,87 @@
+
+body {
+  font-family: Arial, sans-serif; /* Se establece la fuente del cuerpo del documento. */
+  margin: 0; /* Se eliminan los márgenes por defecto del cuerpo del documento. */
+  padding: 0; /* Se eliminan los rellenos por defecto del cuerpo del documento. */
+  display: flex; /* Se usa flexbox para el diseño de la página. */
+  justify-content: center; /* Se centran los elementos horizontalmente. */
+  align-items: center; /* Se centran los elementos verticalmente. */
+  height: 100vh; /* La altura del cuerpo del documento se establece en el 100% del viewport height. */
+  background-color: #a5a1cf85; /* Se establece el color de fondo del cuerpo del documento. */
+}
+
+//---color calculadora-----
+.calculator-container {
+  background-color: #5bcfdeee; /* Se establece el color de fondo del contenedor de la calculadora. */
+  border-radius: 10px; /* Se establece el radio de borde del contenedor de la calculadora. */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Se agrega una sombra al contenedor de la calculadora. */
+  padding: 20px; /* Se agrega relleno al contenedor de la calculadora. */
+  text-align: center; /* Se centra el texto dentro del contenedor de la calculadora. */
+}
+.calculator-container h1 {
+  margin-top: 0; /* Se elimina el margen superior del título dentro del contenedor de la calculadora. */
+}
+.custom-input {
+  width: 100%; /* Se establece el ancho del campo de entrada al 100% del contenedor. */
+  padding: 5px; /* Se agrega relleno al campo de entrada. */
+  margin-bottom: 10px; /* Se establece el margen inferior del campo de entrada. */
+  border: 1px solid #625bac; /* Se establece el borde del campo de entrada. */
+  border-radius: 10px; /* Se establece el radio de borde del campo de entrada. */
+  font-size: 15px; /* Se establece el tamaño de fuente del campo de entrada. */
+}
+
+//---botones calcu
+.button-container {
+  display: grid; /* Se utiliza un grid layout para organizar los botones. */
+  grid-template-columns: repeat(4, 1fr); /* Se crean 4 columnas con el mismo ancho. */
+  gap: 10px; /* Se establece el espacio entre los elementos de la cuadrícula. */
+}
+.button-container button {
+  padding: 10px; /* Se agrega relleno al botón. */
+  border: none; /* Se elimina el borde del botón. */
+  border-radius: 5px; /* Se establece el radio de borde del botón. */
+  font-size: 16px; /* Se establece el tamaño de fuente del botón. */
+  cursor: pointer; /* Se cambia el cursor del ratón al pasar sobre el botón. */
+  background-color:#5d5bcd; /* Se establece el color de fondo del botón. */
+  transition: background-color 0.3s ease; /* Se añade una transición suave al color de fondo del botón. */
+}
+.button-container button:hover {
+  background-color: #6d65cc; /* Se cambia el color de fondo del botón al pasar el cursor sobre él. */
+}
+
+//----------------------HISTORIAL----------------------------------------------------------
+
+.historial-container {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 15px;
+  margin-left: 20px; /* Agregamos un margen derecho al contenedor del historial */
+}
+
+
+.historial-container h3 {
+  margin-top: 0;
+}
+
+.historial-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.historial-container ul li {
+  margin-bottom: 5px;
+}
+
+.historial-container button {
+  padding: 5px 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+.historial-container button:hover {
+  background-color: #45a049;
+}

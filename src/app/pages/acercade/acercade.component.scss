@@ -1,0 +1,46 @@
+
+p {
+    font-size: 18px; /* Tamaño de fuente del párrafo. */
+    font-weight: bold; /* Fuente en negrita para resaltar el texto. */
+    color: #333; /* Color del texto del párrafo. */
+  }
+  
+  label {
+    display: block; /* Hace que la etiqueta sea un bloque para que aparezca en una línea separada. */
+    margin-top: 20px; /* Agrega un margen superior a la etiqueta para separarla del párrafo. */
+  }
+  
+  input {
+    margin-top: 5px; /* Agrega un pequeño margen superior al campo de entrada. */
+    padding: 5px; /* Agrega relleno al campo de entrada. */
+    width: 100%; /* Establece el ancho del campo de entrada al 100% del contenedor. */
+    border: 1px solid #ccc; /* Establece un borde delgado alrededor del campo de entrada. */
+    border-radius: 5px; /* Agrega esquinas redondeadas al campo de entrada. */
+  }
+  
+  ul {
+    list-style-type: none; /* Elimina los marcadores de lista. */
+    padding: 0; /* Elimina el relleno de la lista. */
+  }
+  
+  li {
+    margin-top: 5px; /* Agrega un pequeño margen superior a cada elemento de la lista. */
+  }
+  //-----botones
+
+  button {
+    padding: 10px 20px; /* Agrega relleno interno al botón */
+    margin: 5px; /* Agrega un pequeño margen alrededor del botón */
+    border: none; /* Elimina el borde del botón */
+    border-radius: 5px; /* Agrega esquinas redondeadas al botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    background-color: #1865b7; /* Establece el color de fondo del botón */
+    color: white; /* Establece el color del texto del botón */
+    font-size: 16px; /* Establece el tamaño de fuente del texto del botón */
+    transition: background-color 0.3s ease; /* Agrega una transición suave para el cambio de color de fondo */
+  }
+  
+  button:hover {
+    background-color: #46d8e9; /* Cambia el color de fondo al pasar el cursor sobre el botón */
+  }
+  

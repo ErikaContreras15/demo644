@@ -1,0 +1,30 @@
+div {
+    text-align: left; /* Centra el contenido del div horizontalmente. */
+    margin: 20px; /* Agrega un margen alrededor del div para separarlo de otros elementos. */
+  }
+  
+  h1 {
+    font-size: 24px; /* Tamaño de fuente del título. */
+    color: #333; /* Color del texto del título. */
+  }
+  
+  strong {
+    color: #007bff; /* Color del texto en negrita. */
+  }
+  
+  button {
+    margin-top: 20px; /* Agrega un margen superior a los botones. */
+    padding: 5px 10px; /* Agrega relleno interno a los botones. */
+    border: none; /* Elimina el borde de los botones. */
+    border-radius: 5px; /* Agrega esquinas redondeadas a los botones. */
+    cursor: pointer; /* Cambia el cursor al pasar sobre los botones. */
+    background-color: #007bff; /* Color de fondo de los botones. */
+    color: white; /* Color del texto de los botones. */
+    transition: background-color 0.3s ease; /* Transición suave para el cambio de color de fondo. */
+    margin-left: 10px; /* Agregamos un margen derecho al contenedor del historial */
+  }
+  
+  button:hover {
+    background-color: #5ccbe4; /* Cambia el color de fondo al pasar el cursor sobre los botones. */
+  }
+  

@@ -1,0 +1,15 @@
+<div>
+
+    <h1>UPS ECUADOR</h1>
+    Conectado <strong>{{usuario}}</strong> {{tiempoConexion}}
+    <br>
+    <app-sesion [intervalo]="5" (tiempo)="actualizar($event)" #tiempoSesion></app-sesion>
+    <br>
+    <br>
+    <button (click)="tiempoSesion.reset()">Reset</button>
+    <button (click)="nuevoIntervalo(1)">1</button>
+    <button (click)="nuevoIntervalo(3)">3</button>
+    <button (click)="nuevoIntervalo(5)">5</button>
+  <app-calculadora>Calculadora</app-calculadora>  
+
+</div>
